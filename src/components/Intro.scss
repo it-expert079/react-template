@@ -5,4 +5,47 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
+    opacity: 0.8;
+
+    // .company-overlay {
+    //     opacity: 0.3;
+    //     background-color: rgb(113, 108, 128); 
+    // }
+
+    .company-intro {
+        padding-top: 300px;
+        padding-bottom: 195px;
+        .company-info {
+            font-family: "IBM Plex Sans", sans-serif;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            h2 {
+                font-size: 3.8rem;
+            }
+            p {
+                font-size: 1.2rem;
+                line-height: 1.6;
+            }
+            a {
+                border-radius: 100px;
+                transition: all 0.3s ease-in-out;
+                padding: 1rem 3rem;
+                margin-left: 10px;
+                margin-top: 10px;
+
+                &.read-more {
+                    background-color: #ff8a73 !important;
+                    border-color: #ff8a73 !important;
+                    color: #ffffff !important;
+                }
+
+                &.contact-us {
+                    background-color: #5580ff !important;
+                    border-color: #5580ff !important;
+                    color: #ffffff !important;                
+                }
+            }
+        }
+    }
 }
