@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.css';
+import 'react-fontawesome'
 import Header from './components/Header';
 import Intro from './components/Intro';
 
