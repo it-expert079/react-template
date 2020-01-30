@@ -1,0 +1,61 @@
+.company-article-section {
+    .article-info {
+        padding-top: 45px;
+        padding-bottom: 45px;
+        .left-section {
+            margin: auto;
+        }
+        .right-section {
+            margin: auto;
+            border-left: 2px solid #efefef;
+            padding-left: 4rem;  
+
+            p {
+                font-family: 'IBM Plex Sans', sans-serif;
+                font-size: 1.2rem;
+                line-height: 1.6;
+                text-align: left;
+            }
+        }
+    }
+    .article-items {
+        .card {
+            border: none;
+            .card-img-top {
+                transition: all 0.3s;
+                border-radius: 8px;
+                &:hover {
+                    box-shadow: 0 10px 55px 5px rgba(137, 173, 255, 0.35);
+                }
+            }
+            .card-body {
+                text-align: left;
+                padding-left: 0px;
+                padding-right: 0px;
+                .card-title {
+                    color: #57468b;
+                    font-family: 'IBM Plex Sans', sans-serif;
+                    font-size: 1.5rem;  
+                }
+                .footer-link {
+                    border: none;
+                    color: #57468b;
+                    padding: 0;
+                    margin: 0 0.25rem;
+                    text-decoration:  none;
+                    span {
+                        &:before {
+                            content: "\e96b";
+                        }
+                    }
+
+                    &:hover {
+                        background-color: transparent!important;
+                        color: #ff8a73 !important;
+                        box-shadow: none!important;
+                    }
+                }
+            }
+        }    
+    }
+}
