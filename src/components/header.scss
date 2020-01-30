@@ -1,0 +1,34 @@
+.container-height{
+    height: 150px;
+    h4{
+        padding-top: 30px;
+        float: left;
+        color: #57468b;
+    }
+    .columns{
+        padding-top: 20px;
+    }
+    .border-left{
+        border-left: 1px solid #e0e0e0;
+    }
+    .menu{
+        display: flex;
+        justify-content: center;
+        a{
+            margin-right: 40px;
+            color: #57468b;
+            text-decoration: none;
+            &:hover{
+                color: blue;
+            }
+        }
+        .contact-btn{
+            border-radius: 20px;
+            background-color:#bfceff;
+            border-color: #bfceff;
+            color: #fff;
+            width: 120px;
+            height: 30px;
+        }
+    }
+}
