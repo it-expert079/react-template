@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './header.scss';
+import './css/header.scss';
 import FontAwesome from 'react-fontawesome';
 import 'font-awesome/css/font-awesome.min.css';
 
